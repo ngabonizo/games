@@ -1,0 +1,15 @@
+#cellContainer {
+display: grid;
+grid-template-columns: repeat(3, 100px);
+grid-template-rows: repeat(3, 100px);
+margin: auto;
+}
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px;
+}
+
+
