@@ -1,15 +1,18 @@
 #cellContainer {
 display: grid;
-grid-template-columns: repeat(3, 100px);
-grid-template-rows: repeat(3, 100px);
+grid-template-columns: repeat(3, auto);
+grid-template-rows:repeat(3, auto);
+width: 225px;
 margin: auto;
 }
 .cell {
   width: 75px;
   height: 75px;
-  border: 2px solid black;
+  border: 2px solid;
   border-radius: 5px;
   box-shadow: 0 0 0 2px;
+  box-shadow: 0 0 0 2px;
+  font-size: 50px;
 }
 
 
